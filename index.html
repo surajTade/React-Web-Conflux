@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>TocTacToe</title>
+	</head>
+	<body>
+		<nav class="nav-bar">
+			<ul class="nav-links">
+				<li class="nav-links-item">TicTacToe.com</li>
+			</ul>
+		</nav>
+		<div class="main-div">
+			<div class="info-div">
+				<div class="full-width">
+					<span class="symbol x-symbol">X</span>
+					<span class="symbol o-symbol">O</span>
+				</div>
+				<div class="full-width center-div">
+					<div class="center-div-box">
+						<span class="game-text">Turn:&nbsp;</span>
+						<span class="game-turn">X</span>
+					</div>
+				</div>
+				<div class="full-width end-div">
+					<span class="symbol reload"
+						><i class="fa-solid fa-rotate-right"></i
+					></span>
+				</div>
+			</div>
+			<div class="game-grid">
+				<div class="box"><span class="box-symbol"></span></div>
+				<div class="box"><span class="box-symbol">X</span></div>
+				<div class="box"><span class="box-symbol">O</span></div>
+				<div class="box"><span class="box-symbol">X</span></div>
+				<div class="box"><span class="box-symbol">O</span></div>
+				<div class="box"><span class="box-symbol">X</span></div>
+				<div class="box"><span class="box-symbol"></span></div>
+				<div class="box"><span class="box-symbol"></span></div>
+				<div class="box"><span class="box-symbol">O</span></div>
+			</div>
+			<div class="bottom-grid">
+				<div class="bottom-div-1 show-wins">
+					<div class="player-size">X won</div>
+					<span class="score">0</span>
+				</div>
+				<div>
+					<div class="bottom-div-2 show-wins">
+						<div class="player-size">Tie</div>
+						<span class="score">0</span>
+					</div>
+				</div>
+				<div>
+					<div class="bottom-div-3 show-wins">
+						<div class="player-size">O won</div>
+						<span class="score">0</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script
+			src="https://kit.fontawesome.com/e0e9a9ce42.js"
+			crossorigin="anonymous"></script>
+		<script src="index1.js"></script>
+	</body>
+</html>
+
+<!-- https://www.frontendmentor.io/challenges/tic-tac-toe-game-Re7ZF_E2v -->
